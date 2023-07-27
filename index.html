@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- mets tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Chris Zaldaña Desarrollador web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Portafolio, Portfolio">
+    <meta name="author" content="Chris Zaldaña">
+
+    <!-- bootstraps -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- icono de pestaña  -->
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.png">
+
+    <!-- mi css -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+    <!-- titulo de la pagina -->
+    <title>Chris Zaldaña | Desarrollador web</title>
+</head>
+<body>
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/img/img_inicio.png" alt="computadora" width="50"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav d-flex justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#acercademi">Acerca de mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hability">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Proyectos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- presentacion -->
+    <section class="presentacion row">
+        <div class="col d-flex align-items-start flex-column justify-content-center align-items-center">
+            <p>¡Hola!</p>
+            <p class="minombre"><strong>Soy Chris Zaldaña</strong></p>
+            <p>Estudiante del Bootcamp "Full Stack Developer"</p>
+            <button type="button" class="btn btn-warning">Contactame</button>
+        </div>
+        <div class="foto col d-flex justify-content-center">
+            <img src="assets/img/foto_perfil.png" alt="foto de perfil de chris zaldaña">
+        </div>
+    </section>
+    <!-- acerca de mi -->
+    <section class="acerca-de-mi row" id="acercademi">
+        <div class="col d-flex justify-content-center">
+           <p class="miinfo"><strong>Acerca de mi</strong></p>
+        </div>
+        <div class="col">
+            <p class="texto-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur at quod eaque veniam rem porro pariatur maxime, eligendi dolorum nam debitis minus dolore magnam odio quisquam rerum, quasi accusantium. Eum!</p>
+            <p class="texto-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque alias, provident impedit ipsam voluptatibus sapiente, aliquam laboriosam dolores fugit corrupti suscipit itaque animi quibusdam perspiciatis blanditiis ab quo? Placeat, hic?</p>
+            <br>
+            <button type="button" class="boton-cv btn btn-warning">Descargar CV</button>
+        </div>
+    </section>
+    <!-- Habilidades con cuadros -->
+    <h2 class="titulo-habilidades" id="hability"><strong>Mis habilidades</strong></h2>
+    <center><hr class="linea"></center>
+    <div class="texto-de-habilidades">
+      <p class="texto-habilidades">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dignissimos distinctio blanditiis nam quaerat a illum nihil? Quae vitae culpa sunt laborum harum eos officia incidunt quisquam, assumenda quaerat laudantium.</p>
+    </div>
+    <section class="habilidades-cards d-flex justify-content-center row">
+      <div class=" col card text-center mb-3">
+        <div class="card-body">
+          <h5 class="card-title">HTML</h5>
+          <p class="card-text">Maquetacion de landing pages, formularions, etc.</p>
+          <a href="#" class="btn btn-primary">Cotiza</a>
+        </div>
+      </div>
+      <div class="col card text-center mb-3">
+        <div class="card-body">
+          <h5 class="card-title">CSS</h5>
+          <p class="card-text">Diseño de paginas web con CSS3</p>
+          <a href="#" class="btn btn-primary">Cotiza</a>
+        </div>
+      </div>
+    </section>
+    <section class="habilidades-cards2 row d-flex justify-content-center">
+      <div class="col card text-center mb-3">
+        <div class="card-body">
+          <h5 class="card-title">JavaScript</h5>
+          <p class="card-text">JavaScript para tus aplicaciones Web</p>
+          <a href="#" class="btn btn-primary">Cotiza</a>
+        </div>
+      </div>
+        <div class="col card text-center mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap</h5>
+            <p class="card-text">Maquetacion y diseño de paginas web</p>
+            <a href="#" class="btn btn-primary">Cotiza</a>
+          </div>
+        </div>
+    </section>
+    <!-- Experiencia -->
+    <div class="experiencia" id="experience">
+      <h1><strong>Mi Experiencia</strong></h1>
+    </div>
+    <section>
+      <p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          Profesor de Ingles
+        </button>
+      </p>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <div class="card card-body" style="width: 100%;">
+            <h1>Profesor de Ingles</h1>
+        <h2>Educlase</h2>
+        <h2>2014 - 2020</h2>
+        <h2>Descripcion:</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam autem iusto provident quo rem obcaecati assumenda quam, amet quisquam pariatur doloremque soluta, expedita suscipit, sit perferendis inventore repellendus quaerat repellat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+          Teleoperador
+        </button>
+      </p>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+          <div class="card card-body" style="width: 100%;">
+            <h1>Teleoperador</h1>
+            <h2>Telus International</h2>
+            <h2>2014 - 2020</h2>
+            <h2>Descripcion:</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam autem iusto provident quo rem obcaecati assumenda quam, amet quisquam pariatur doloremque soluta, expedita suscipit, sit perferendis inventore repellendus quaerat repellat.</p>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section>
+      <p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample">
+          Lider de equipo
+        </button>
+      </p>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+          <div class="card card-body" style="width: 100%;">
+            <h1>Lider de equipo</h1>
+            <h2>Telus International</h2>
+            <h2>2020 - Actualidad</h2>
+            <h2>Descripcion:</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam autem iusto provident quo rem obcaecati assumenda quam, amet quisquam pariatur doloremque soluta, expedita suscipit, sit perferendis inventore repellendus quaerat repellat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Proyectos -->
+  
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

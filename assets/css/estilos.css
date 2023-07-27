@@ -1,0 +1,56 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.minombre{
+    font-size: 50px;  
+}
+
+.foto{
+    width: 600px;
+    height: 600px;
+}
+
+.acerca-de-mi{
+    margin-top: 100px;
+}
+
+.texto-info{
+    width: 600px;
+    text-align: center;
+}
+.miinfo{
+    font-size: 40px;
+}
+
+.habilidades-cards{
+    margin-top: 80px;
+}
+
+.titulo-habilidades{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.linea{
+    width: 150px;
+    color: brown;
+    
+}
+
+.texto-de-habilidades{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.texto-habilidades{
+    width: 500px;
+}
+
+.experiencia{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
